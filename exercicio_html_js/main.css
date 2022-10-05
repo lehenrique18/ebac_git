@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none !important;
+    width: 265px !important;
+}
+
+.btn-clear{
+    background-color: #fff;
+    color: #ff990f;
+}
+
+
+.listen input,
+.listen button{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 6px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+#msg-error{
+    width: 250px;
+    height: 10px;
+    font-size: 12px;
+    padding: 8px;
+    margin: 0 auto;
+    display: none;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+#msg-acepted{
+    width: 250px;
+    height: 15px;
+    font-size: 15px;
+    padding: 8px;
+    margin: 0 auto;
+    display: none;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+
